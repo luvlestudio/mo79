@@ -48,7 +48,7 @@ window.onload = () => {
       content: {
         title: "JOSHUA YORK ♥ SOLEE KANG의 모바일 청첩장",
         description: "2025년 7월 20일 일요일♡",
-        imageUrl: "https://i.imgur.com/GEbe3Dc.png",
+        imageUrl: "https://i.imgur.com/IFZJ6Yf.png",
         imageWidth: 1200,
         imageHeight: 630,
         link: {
