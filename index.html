@@ -356,6 +356,17 @@
             </div>
           </a>
         </div>
+        <script>
+          const mapLinkEl = document.querySelector(".maplink");
+          mapLinkEl.addEventListener("click", () => { 
+            const userAgent = navigator.userAgent.toLowerCase();
+            if (userAgent.indexOf('iphone') > -1) {
+              window.location.href = "kakaomap://place?id=1687324400"
+            } else {
+              window.location.href = "https://kko.kakao.com/PNdIaFWOcN";
+            }
+          });
+        </script>
       </div>
 
       <!-- 이동수단 정보 -->
